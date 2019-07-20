@@ -35,29 +35,64 @@
           </table>
           
           <h3>AI</h3>
-<!--
-<span class="glyphicon glyphicon-star" aria-hidden="true" style="color: #ff911d; margin-left: 5px;"></span>:中立</p>!-->
-<table class="table-bordered" width="100%">
-  <tr>
-     <td class="tc4" colspan="4" style="background: #2980b9;">玩家本身</td>
-  </tr>
-  <tr>
-    <td class="tc6"><div class="p2"></div>玩家1：</td>
-    <td class="tc6" colspan="3">法蘭克（紅色）</td>
-  </tr>
- <tr>
-     <td class="tc4" colspan="4" style="background:#ea6153;">敵對</td>
-<tr>
-    <td class="tc6"><div class="p4"></div>玩家2：</td>
-    <td class="tc6">柏柏人（黃色）土耳其 </td>
-  </tr>
-<tr>
-    <td class="tc6"><div class="p3"></div>玩家3：</td>
-    <td class="tc6">摩爾人（綠色）薩拉森 </td>
-  </tr>
+        <table class="table-bordered" width="100%">
+          <tr>
+            <td class="tc4" colspan="4" style="background: #2980b9;">
+              玩家本身
+            </td>
+          </tr>
+          <tr>
+            <td class="tc6">
+              <div class="p4"></div>
+              玩家1：
+            </td>
+            <td class="tc6" colspan="3">
+              <nuxt-link to="/civs/Persians">波斯</nuxt-link>（黃色）
+            </td>
+          </tr>
 
+          <tr>
+            <td class="tc4" colspan="4" style="background: #27ae60;">同盟</td>
+          </tr>
+          <tr>
+            <td class="tc6" width="15%">
+              <div class="p8"></div>
+              玩家2：
+            </td>
+            <td class="tc6" width="35%">波斯人（橘色）波斯</td>
+            <td class="tc6" width="15%">
+              <div class="p1"></div>
+              玩家3：
+            </td>
+            <td class="tc6" width="35%">呼羅珊人（藍色）印度</td>
+          </tr>
+          
+          <tr>
+            <td class="tc4" colspan="4" style="background:#ea6153;">敵對</td>
+          </tr>
+          <tr>
+            <td class="tc6">
+              <div class="p3"></div>
+              玩家4：
+            </td>
+            <td class="tc6">白匈奴人（綠色）蒙古</td>
+          </tr>
+          <tr>
+            <td class="tc6">
+              <div class="p5"></div>
+              玩家5：
+            </td>
+            <td class="tc6">突厥人（青色）土耳其</td>
+          </tr>
+          <tr>
+            <td class="tc6">
+              <div class="p6"></div>
+              玩家6：
+            </td>
+            <td class="tc6">白匈奴突襲兵（紫色）匈奴</td>
+          </tr>
+        </table>
 
-</table>
 
 <h3>開場</h3>
 <li>霍斯勞X1，象弓騎兵X3，輕騎兵X1，村民X3</li>
@@ -67,15 +102,20 @@
           <div class="n1">
             <ol>
               <li>
-                阻止穆斯林破壞你的三個<nuxt-link to="/building/Town_Center"
-                  >城鎮中心</nuxt-link
-                >。
+                霍斯勞必須存活。
               </li>
               <li>
-                在摩爾人的輜重裡，奪取 6
-                個貿易車隊，並把他們帶回在都爾的大教堂去。
+                依著指引到能安置你基地的地點。
               </li>
-              <li>由於一部分穆斯林馬車丟失了，我們需要徹底擊敗穆斯林。</li>
+              <li>
+                升級到帝王時代並等待你的大軍到來。
+              </li>
+              <li>
+                擊敗白匈奴人。
+              </li>
+              <li>
+                擊敗突厥人。
+              </li>
             </ol>
           </div>
           <h3>任務提示</h3>
@@ -83,18 +123,24 @@
           <div class="n1">
             <ul>
               <li>
-                穆斯林正在進攻邊陲的法蘭克農場。將<nuxt-link
-                  to="/units/hero/Charles_Martel"
-                  >鐵鎚查理</nuxt-link
-                >的軍隊派出和建設自己的防禦減緩他們進攻速度。
+                保護當地村莊，這樣確保他們能源源不斷地進貢。
               </li>
               <li>
-                柏柏人和摩爾人利用不昂貴的單位作戰，雖然法蘭克<nuxt-link
-                  to="/units/Knight"
-                  >騎士</nuxt-link
-                >可以打敗他們，但穆斯林花費較少我們很多。
+                你不一定非得聽白匈奴人的話乖乖進貢，但是在早期你最好不要得罪這些白匈奴人。
               </li>
-              <li>你可以點擊路徑標記。</li>
+              <li>
+                和突厥人結盟能讓你更放心地和白匈奴人抗衡。
+              </li>
+              <li>
+                如果你快沒黃金了，你可以依靠和絲路另一端的貿易戰做交易來獲取暴利。
+              </li>
+              <li>
+                這些平原被一些馬弓騎兵所佔據，你最好的克制方法就是用戟兵和戰矛兵互相配合。這種組合的性價比很高。波斯人有強大的騎兵單位，你要好好利用。
+                從目前的狀況來看戰象對你的用處不大。
+              </li>
+              <li>
+                薩瓦蘭重騎兵是波斯特產的一種能自行療傷的重騎兵單位。他們價格不斐但物超所值。
+              </li>
             </ul>
           </div>
           <h3>斥候</h3>
@@ -102,28 +148,23 @@
           <div class="n1">
             <ul>
               <li>
-                法蘭克(紅色)在北部防守著多爾斯這個大城鎮，鐵錘查理軍隊在南部。
+                西邊有幾座波斯村莊，他們幾乎沒有任何防禦工事。
               </li>
               <li>
-                <nuxt-link to="/civs/Berbers">柏柏</nuxt-link
-                >(黃色)佔據地圖的西角，他們訓練<nuxt-link
-                  to="/units/Light_Cavalry"
-                  >輕騎兵</nuxt-link
-                >、<nuxt-link to="/units/Long_Swordsman">長劍兵</nuxt-link
-                >、<nuxt-link to="/units/Battering_Ram">衝撞車</nuxt-link
-                >，但他們防守薄弱，可以早期進攻打敗。
+                北邊是突厥人部落的地盤。
               </li>
               <li>
-                摩爾(綠色)佔據著西南部的波義提爾斯城，這使得他們很難被擊敗，它們有<nuxt-link
-                  to="/units/Camel"
-                  >駱駝騎兵</nuxt-link
-                >、騎士、弩砲，如果時間足夠還可能訓練<nuxt-link
-                  to="/units/Mameluke"
-                  >阿拉伯奴隸兵</nuxt-link
-                >。
+                東邊有幾座白匈奴人的防禦工事，有重兵把守。
+              </li>
+              <li>
+                在波斯影響力的邊緣地帶有一座拜火教的聖火廟。
+              </li>
+              <li>
+                絲路是一條從中國到拜占庭的貿易大道，這裡的貿易利潤非常高。
               </li>
             </ul>
           </div>
+          
           <h3>攻略</h3>
           <div class="hrn1"></div>
           <ul>
@@ -208,12 +249,12 @@
         <table class="table-bordered" width="100%">
           <tr>
             <td class="unit" colspan="2" style="background-color:#375d96;">
-              <div class="unititle2">都爾（732）圖爾戰役</div>
+              <div class="unititle2">布哈拉(557)</div>
             </td>
           </tr>
           <tr>
             <td colspan="2">
-              <div class="unititle"><img src="~assets/Tours.jpg" alt="" /></div>
+              <div class="unititle"><img src="~assets/Bukhara_map.png" alt="" /></div>
             </td>
           </tr>
           <tr>
@@ -224,21 +265,21 @@
           <tr>
             <td class="unit3">版本</td>
             <td class="unit4">
-              <nuxt-link to="/games/aoc">征服者入侵</nuxt-link>
+              <nuxt-link to="/games/aof">失落的帝國</nuxt-link>
             </td>
           </tr>
           <tr>
             <td class="unit3">戰役</td>
             <td class="unit4">
-              <nuxt-link to="/batt/Battles_of_the_Conquerors"
-                >征服者的戰役</nuxt-link
+              <nuxt-link to="/batt/Battles_of_the_Forgotten"
+                >失落的帝國的戰役</nuxt-link
               >
             </td>
           </tr>
           <tr>
             <td class="unit3">文明</td>
             <td class="unit4">
-              <nuxt-link to="/civs/Franks">法蘭克</nuxt-link>
+              <nuxt-link to="/civs/Persians">波斯</nuxt-link>
             </td>
           </tr>
           <tr>
@@ -249,7 +290,7 @@
           <tr>
             <td class="unit3">章節</td>
             <td class="unit4">
-              <nuxt-link to="/games/aoc">征服者入侵</nuxt-link>第四章之一
+              <nuxt-link to="/games/aof">失落的帝國</nuxt-link>第七章之一
             </td>
           </tr>
           <tr>
@@ -259,35 +300,27 @@
           <tr>
             <td class="unit3">下一關</td>
             <td class="unit4">
-              <nuxt-link to="/batt/Vindlandsaga_1000"
-                >芬特蘭撒格(1000)</nuxt-link
+              <nuxt-link to="/batt/Dos_Pilas_648"
+                >雙柱城(648)</nuxt-link
               >
             </td>
           </tr>
         </table>
 
-        <div class="thanks">感謝！此頁面由Wun、裕暉協助編輯。</div>
+        <div class="thanks">感謝！此頁面由賜齡、裕暉協助編輯。</div>
         <div class="wiki" style="margin-top: 5px;">
           <div style="float: left;">
             <img src="~assets/Wikipedia-logo.png" width="50" height="46" />
           </div>
           <div style="margin-left: 60px;">
-            維基百科鐵鎚查理與圖爾之戰
+            維基百科布哈拉戰役
             <div style="margin-left: 10px;">
               <em
                 ><strong
                   ><a
-                    href="https://zh.wikipedia.org/wiki/%E6%9F%A5%E7%90%86%C2%B7%E9%A9%AC%E7%89%B9"
+                    href="https://zh.wikipedia.org/wiki/%E5%B8%83%E5%93%88%E6%8B%89%E4%B9%8B%E6%88%B0"
                     target="_blank"
-                    >鐵鎚查理</a
-                  ></strong
-                ></em
-              >、<em
-                ><strong
-                  ><a
-                    href="https://zh.wikipedia.org/wiki/%E5%9C%96%E7%88%BE%E6%88%B0%E5%BD%B9"
-                    target="_blank"
-                    >圖爾戰役</a
+                    >布哈拉戰役</a
                   ></strong
                 ></em
               >
