@@ -169,10 +169,11 @@
               <nuxt-link to="/batt/Alarica">阿拉里克</nuxt-link>
             </td>
             <td class="unit4">
-              <nuxt-link to="/batt/All_Roads_Lead_to_a_Besieged_City">條條大路通圍城</nuxt-link>。
-              <nuxt-link to="/batt/Legionaries_on_the_Horizon">羅馬軍團隨時殺到</nuxt-link>。
-              <nuxt-link to="/batt/Emperor_of_the_West">西域之君</nuxt-link>。
-              <nuxt-link to="/batt/The_Sack_of_Rome">洗劫羅馬</nuxt-link>
+              <nuxt-link to="/batt/The_Battle_of_the_Frigidus">冷河戰役</nuxt-link>。
+              <nuxt-link to="/batt/Razing_Hellas">剷平赫拉斯	</nuxt-link>。
+              <nuxt-link to="/batt/The_Belly_of_the_Beast">深入虎穴</nuxt-link>。
+              <nuxt-link to="/batt/The_Giant_Falls">巨人隕落</nuxt-link>。
+              <nuxt-link to="/batt/A_Kingdom_of_Our_Own">我們的王國</nuxt-link>
             </td>
           </tr>
           <tr>
@@ -194,7 +195,9 @@
             <td class="unit4">
               <nuxt-link to="/batt/Arrival_at_Bari">抵達巴里</nuxt-link>。
               <nuxt-link to="/batt/The_Rebellion_of_Melus">邁勒斯叛變</nuxt-link>。
-              <nuxt-link to="/batt/The_Great_Siege">四面楚歌</nuxt-link>
+              <nuxt-link to="/batt/Loose_Ends">未竟之局</nuxt-link>。
+              <nuxt-link to="/batt/The_Best_Laid_Plans">錦囊妙計</nuxt-link>。
+              <nuxt-link to="/batt/The_Onrushing_Tide">奔湧之水</nuxt-link>
             </td>
           </tr>
           <tr>
